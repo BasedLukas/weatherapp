@@ -1,0 +1,20 @@
+Welcome to my weather app.
+
+Run the main.py file to get the main menu.
+You can then choose to use the CLI or GUI.
+
+to find out more about the API visit https://openweathermap.org/
+In the config file you will find an API key. If the api stops working you can get a new key and paste it in there.
+You can also edit the city_names list. This is the list of cities available in the GUI.
+First search for the city in the CLI to make sure it exists, then add it to the list.
+
+The functions.py page contains basic program functions. Some of the functions are used by both the CLI and GUI
+Others are exclusive to one or the other. Check the comments by each function
+
+gui.py contains everything needed to run the gui. It makes use of some functions.py functions
+
+test.py is for testing new code, none of the code there should run in the final app
+
+citylist.json contains a list of all possible cities you can request weather from. It used by functions.py
+icon.png is the image displayed by each weather report in the gui.It is re-downloaded for every new report.
+app_icon.ico is used in the gui window at the top left
