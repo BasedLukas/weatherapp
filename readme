@@ -3,6 +3,7 @@ Welcome to my weather app.
 Run the main.py file to get the main menu.
 You can then choose to use the CLI or GUI.
 CLI won't work until you create the citylist.json file. See below
+You will also need to install dependencies; PIL, requests and datetime
 
 to find out more about the API visit https://openweathermap.org/
 In the config file you will find an API key. If the api stops working you can get a new key and paste it in there.
