@@ -1,9 +1,12 @@
 Welcome to my weather app.
+I built this to get familiar with using API's, Json and Tkinter. 
+In order to run,make sure you have all dependencies installed. 
+I think the only one that isn't built in to python is Pillow
 
 Run the main.py file to get the main menu.
 You can then choose to use the CLI or GUI.
 CLI won't work until you create the citylist.json file. See below
-You will also need to install dependencies; PIL, requests and datetime
+
 
 to find out more about the API visit https://openweathermap.org/
 In the config file you will find an API key. If the api stops working you can get a new key and paste it in there.
@@ -20,7 +23,7 @@ test.py is for testing new code, none of the code there should run in the final 
 You need to create a json file called citylist.json The reason for this is that it is too large for github, so I cannot upload it myself
 Download and unpack this file: https://bulk.openweathermap.org/sample/city.list.json.gz
 make sure it is in the same directory and that it's called citylist.json
-citylist.json contains a list of all possible cities you can request weather from. It used by functions.py
+citylist.json contains a list of all possible cities you can request weather from.
 
 icon.png is the image displayed by each weather report in the gui.It is re-downloaded for every new report.
 app_icon.ico is used in the gui window at the top left
